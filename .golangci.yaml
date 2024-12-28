@@ -1,0 +1,16 @@
+linters:
+  enable-all: true
+  disable:
+    - exportloopref
+    - depguard
+    - wsl
+    - forbidigo
+    - varnamelen
+    - wrapcheck
+    - testpackage
+    - nlreturn
+    - perfsprint
+    - mnd
+    - gochecknoglobals
+    - exhaustruct
+    - funlen
